@@ -36,7 +36,7 @@ Each endpoint manipulates or displays information related to the Task whose Toke
 
 - Get tasks : `GET /tasks`
 - Get task by ID : `GET /tasks/:id`
-- Create task : `POST /tasks/:id`
+- Create task : `POST /tasks`
 - Update task : `PUT /tasks/:id`
 - Delete task : `DELETE /tasks/:id`
 

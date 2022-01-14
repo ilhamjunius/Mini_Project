@@ -16,7 +16,7 @@ go run main.go
 Open endpoints require no Authentication.
 
 * Register : `POST /users/register`
-* Login : `POST /users/login/`
+* Login : `POST /users/login`
 
 ## Endpoints that require Authentication
 

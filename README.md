@@ -47,7 +47,7 @@ Each endpoint manipulates or displays information related to the Project whose T
 - Get project by UserID : `GET /projects`
 - Get project by ID : `GET /projects/:id`
 - Create project : `POST /projects`
-- Update project : `PUT /projects/`
-- Delete project :  `DELETE /projects/:`
+- Update project : `PUT /projects/:id`
+- Delete project :  `DELETE /projects/:id`
 
 

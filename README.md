@@ -9,14 +9,13 @@ go run main.go
 ```
 
 ## Stack-tech :dart:
-- [x] RESTful API Using Go, Echo, Gorm, MySQL
-- [x] AWS for service api
+- [x] RESTful API using Go, Echo, MySQL, Gorm
 
 ## Open Endpoints
 
 Open endpoints require no Authentication.
 
-* Create user : `POST /users/register`
+* Register : `POST /users/register`
 * Login : `POST /users/login/`
 
 ## Endpoints that require Authentication
@@ -27,29 +26,28 @@ Closed endpoints require a valid Token to be included in the header of the reque
 
 Each endpoint manipulates or displays information related to the User whose Token is provided with the request:
 
-- Get user data by ID : `GET /users/:id`
-- Register user : `POST /users/:id`
-- Update user data by ID : `PUT /users/:id`
-- Delete user data by ID : `DELETE /users/:id`
+- Get user by ID : `GET /users/:id`
+- Update user by ID : `PUT /users/:id`
+- Delete user by ID : `DELETE /users/:id`
 
 ### Task related
 
 Each endpoint manipulates or displays information related to the Task whose Token is provided with the request:
 
-- Get task data by ID : `GET /tasks/:id`
-- Get task data by UserID : `GET /tasks/:id`
-- Create task by user ID : `POST /tasks/:id`
-- Update task by user ID : `PUT /tasks/:id`
-- Delete task data by user ID : `DELETE /tasks/:id`
+- Get tasks : `GET /tasks`
+- Get task by ID : `GET /tasks/:id`
+- Create task : `POST /tasks/:id`
+- Update task : `PUT /tasks/:id`
+- Delete task : `DELETE /tasks/:id`
 
 ### Project related
 
 Each endpoint manipulates or displays information related to the Project whose Token is provided with the request:
 
-- Get task data by ID : `GET /projects/:id`
-- Get task data by UserID : `GET /projects/:id`
-- Create task by user ID : `POST /projects/:id`
-- Update task by user ID : `PUT /projects/:id`
-- Delete task data by user ID : `DELETE /projects/:id`
+- Get project by UserID : `GET /projects`
+- Get project by ID : `GET /projects/:id`
+- Create project : `POST /projects`
+- Update project : `PUT /projects/`
+- Delete project :  `DELETE /projects/:`
 
 
